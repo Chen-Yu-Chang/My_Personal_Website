@@ -4,7 +4,7 @@
     $subject=$_POST['subject'];
     $message=$_POST['message'];
     
-    $email_from = 'https://chen-yu-chang.github.io/My_Personal_Website/contact.html';
+    $email_from = 'https://chen-yu-chang.github.io/My_Personal_Website/';
     $email_subject = 'New Form Submission';
     $email_body = "User Name: $name.\n".
                     "User Email: $visitor_email.\n".
@@ -13,7 +13,7 @@
     
     $to = 'cchenyu.pro@gmail.com';
     $headers= "From: $email_from \r\n";
-    $headers .= "Reply-To: $visitor+email \r\n";
+    $headers .= "Reply-To: $visitor_email \r\n";
     
     mail($to, $email_subject, $email_body, $headers);
     header("Location: contact.html");
