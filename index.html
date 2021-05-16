@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title> Chen-Yu Chang's Personal Website </title>
+    <link rel = "stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href = "index.html"><img src = "image/logo1.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="project.html">PROJECTS</a></li>
+                    <li><a href="course.html">COURSES</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+                </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+    <div class="text-box">
+        <h1>Chen-Yu's Personal Website</h1>
+        <p>Major in computer engineering and minor in statistics. Expecting to graduate from Boston University in 2022.
+        </p>
+        <a href="about.html" class="hero-btn">Visit Us to Know More</a>
+    </section>
+    
+<!----- Projects ------>
+<section class="project1">
+    <h1>Projects</h1>
+    <p>The projects I engaged in<br><br>For codes and detailed information, please visit</p>
+    <br>
+    <a href="project.html">My Project Page</a>
+    
+    <div class="row">
+        <div class="project-col1">
+            <h3>Graph Traversal Breadth First Search Optimization</h3>
+            <p>Breadth First Search is a significant implementation of graph processing. I tried deeply in the optimization of breadth first search through parallelization, blocking, and other algorithms, such as hybrid algorithm and Dijkstra’s algorithm.</p>
+        </div>
+        <div class="project-col1">
+            <h3>Smoothie Dispenser</h3>
+            <p>Smoothie Dispenser is a remote food drop system that consumers
+            can use to drop smoothie onto smoothie container by pressing a
+            remote button on their phone. There are several elements: servos,
+            thermistor, accelerometer, WebCam, Lidar, alphanumeric display.</p>
+        </div>
+        <div class="project-col1">
+            <h3>Cruise Control</h3>
+            <p>We built a cruise that we can control through a website we made. We are able to control its direction. The system has been set to move in a range of speed through several techniques. For further explanation, please reach to project page.</p>
+        </div>
+        <div class="project-col1">
+            <h3>Electronic Voting</h3>
+            <p>E-voting will be enabled by unique devices (fobs) given to all registered voters. Voting will consist of creating a secure near field communications link between two fobs. Once the vote has been received, it should be communicated to the Poll Leader. It will send the results to a server which will log the vote to a database. Poll results will be accessible via the server via http, and there is a reset button that will restart the vote.</p>
+        </div>
+    </div>
+    
+    <div class="row">
+        <div class="project-col1">
+            <h3>Hurricane Box</h3>
+            <p>Hurricane Box is suitable for recording data experienced over an
+            episodic weather event. The box records what’s happening by
+            using accelerometer and thermistor and allows playback based on
+            the time series of recordings with graphs to a personal domain by
+            using WebCam.</p>
+        </div>
+        <div class="project-col1">
+            <h3>Tactile Internet</h3>
+            <p>We connected the 3 sensors(thermistor, ultrasonic sensor, IR range sensor) to the ESP32 using ADC, and output these sensor values and graph them on a website to build a tactile Internet.</p>
+        </div>
+        <div class="project-col1">
+            <h3>Dog Cat Classifier</h3>
+            <p>Dog and cat classifier is a basic machine learning that I implement
+            probability through many training data to make the computer
+            know how to figure out whether it is a dog or cat.</p>
+        </div>
+        <div class="project-col1">
+            <h3>Multicycle CPU</h3>
+            <p>Multicycle CPU is a pipelined CPU from computer organization. It
+            includes several functions, such as ALU, rigisters, sign extension, etc.</p>
+        </div>
+    </div>
+    
+    <div class="row">
+        <div class="project-col1">
+            <h3>GreenMate App</h3>
+            <p>This app is to advocate eco-friendly activities. The main function
+            includes a step counter, recycling database, and counter that users
+            input in the number of recycling items.</p>
+        </div>
+        <div class="project-col1">
+            <h3>Pokemon Game</h3>
+            <p>This program is a game allows player to train their own pokemons
+            and battle. There are stamina and money system while these
+            calculate automatically after training or refilling the stamina.</p>
+        </div>
+        <div class="project-col1">
+            <h3>Travel Recommendation App</h3>
+            <p>The project imported a large database and gave the top 10
+            recommended countries to visit based on different proportion of
+            air cleanness and popularity.</p>
+        </div>
+        <div class="project-col1">
+            <h3>Truss Design</h3>
+            <p>We used straws to build the truss design. We need to calculate the force and estimate the maximum weight the truss can hold in certain structure. We analyze with Matlab code. The data will be helpful in visualizing the truss that will be built and determining the exact dimensions of the truss.</p>
+        </div>
+    </div>
+    
+</section>
+<!----- Experience ------>
+<section class="experience">
+    <h1>My Experience</h1>
+    <p>The special experience in college</p>
+    <br>
+    <a href="about.html">My Detailed Experience</a>
+    <div class="row">
+        <div class="experience-col">
+            <img src="image/brocc.jpeg">
+            <div class="layer">
+                <h3>Broccoli's In the Fridge</h3>
+            </div>
+        </div>
+        <div class="experience-col">
+            <img src="image/battlebot.jpeg">
+            <div class="layer">
+                <h3>BattleBot Team</h3>
+            </div>
+        </div>
+        <div class="experience-col">
+            <img src="image/teach.jpeg">
+            <div class="layer">
+                <h3>Teaching Assistant</h3>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="experience-col">
+            <img src="image/rocket.jpeg">
+            <div class="layer">
+                <h3>Hyper Rocket Team</h3>
+            </div>
+        </div>
+        <div class="experience-col">
+            <img src="image/wheel.jpeg">
+            <div class="layer">
+                <h3>Wheel Suspension<br>Team</h3>
+            </div>
+        </div>
+        <div class="experience-col">
+            <img src="image/speaker.jpeg">
+            <div class="layer">
+                <h3>Speaker</h3>
+            </div>
+        </div>
+    </div>
+</section>
+<!----- Facilities ------>
+<!--<section class="facilities">
+    <h1>Our Facilities</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    <div class="row">
+        <div class="facilities-col">
+            <img src="image/library.png">
+                <h3>World Class Library</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquet turpis mulla.</p>
+        </div>
+        <div class="facilities-col">
+            <img src="image/basketball.png">
+                <h3>Largest Playground</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquet turpis mulla.</p>
+        </div>
+        <div class="facilities-col">
+            <img src="image/cafeteria.png">
+                <h3>Tasty and Healthy Food</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquet turpis mulla.</p>
+        </div>
+    </div>
+    
+</section>-->
+<!----- Testimonials ------>
+<!--<section class="testimonials">
+    <h1>What Our Students Says</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    <div class="row">
+        <div class="testimonials-col">
+            <img src="image/user1.jpg">
+            <div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquet turpis mulla,eleifend faucibus est sollicitudin ut. Maecenas ut venenatis ex, et dapibus purus.</p>
+                <h3>Christine Berkley</h3>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+        </div>
+        <div class="testimonials-col">
+            <img src="image/user2.jpg">
+            <div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquet turpis mulla,eleifend faucibus est sollicitudin ut. Maecenas ut venenatis ex, et dapibus purus.</p>
+                <h3>David Byer</h3>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+            </div>
+        </div>
+    </div>
+</section>-->
+
+<!----- Call to Action ------>
+<section class="cta">
+    <h1>Feel Free to Contact Me for Interviews</h1>
+    <a href="contact.html" class="hero-btn">CONTACT ME</a>
+</section>
+
+<!----- Footer ------>
+<section class="footer">
+    <a href="">Back to the Front</a>
+    <h4>Connect with Me</h4>
+    <p>Contact me through email cchenyu.pro@gmail.com or social media</p>
+    <div class="icons">
+        <a href="https://github.com/Chen-Yu-Chang"><i class="fa fa-github"></i></a>
+        <a href="https://www.facebook.com/pigymat"><i class="fa fa-facebook"></i></a>
+        <a href="https://www.instagram.com/enzochang_0509/"><i class="fa fa-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/chen-yu-chang-53825b174/"><i class="fa fa-linkedin"></i></a>
+    </div>
+    <p>Made by <i class="fa fa-heart-o"></i> Chen-Yu Chang</p>
+</section>
+    
+<!----- JavaScript for Toggle Menu ------>
+<script>
+    
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+    
+    
+    
+</body>
+</html>
